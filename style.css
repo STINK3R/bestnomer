@@ -825,7 +825,7 @@ body {
 }
 
 .tariffs-container {
-    overflow: visible;
+    overflow: hidden;
     border-radius: 0;
     position: relative;
     touch-action: pan-y;
@@ -854,6 +854,7 @@ body {
     display: flex;
     flex-direction: column;
     touch-action: pan-y;
+    box-shadow: none;
 }
 
 /* Плашка цены на карточке тарифа */
